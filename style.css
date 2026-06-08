@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#F6F1EB;
+    color:#6B4F3A;
+}
+
+.cover{
+    height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:
+    repeating-linear-gradient(
+        45deg,
+        #f6f1eb,
+        #f6f1eb 20px,
+        #f3ece4 20px,
+        #f3ece4 40px
+    );
+}
+
+.book{
+    background:#fff8f0;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+
+    max-width:500px;
+}
+
+.book h1{
+    font-family:'Dancing Script';
+    font-size:4rem;
+}
+
+button{
+    margin-top:20px;
+
+    padding:15px 30px;
+
+    border:none;
+
+    background:#A67C52;
+
+    color:white;
+
+    border-radius:15px;
+
+    cursor:pointer;
+}
+
+#content{
+    display:none;
+    padding:40px 20px;
+}
+
+.paper{
+    max-width:800px;
+
+    margin:30px auto;
+
+    background:#FFF8F0;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+}
+
+.note{
+    width:300px;
+    transform:rotate(-2deg);
+}
+
+.pink{
+    background:#FFD9D9;
+}
+
+.yellow{
+    background:#FFE8A3;
+}
+
+.ending{
+    text-align:center;
+    padding:100px 20px;
+}
+
+.ending h1{
+    font-family:'Dancing Script';
+    font-size:4rem;
+}
+.envelope{
+    max-width:400px;
+    margin:20px auto;
+
+    background:#A67C52;
+    color:white;
+
+    padding:20px;
+
+    text-align:center;
+
+    border-radius:15px;
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+.envelope:hover{
+    transform:scale(1.05);
+}
+
+.letter-content{
+    display:none;
+
+    max-width:700px;
+    margin:20px auto;
+
+    background:#FFF8F0;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+}
+
+.surat{
+    white-space:pre-line;
+    line-height:1.8;
+}
